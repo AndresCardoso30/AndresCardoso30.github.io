@@ -1,0 +1,135 @@
+body {
+    background-image: url("media/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+#barra {
+    display: inline-block;
+    height: 30px;
+    min-height: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;   
+    width: 100%;
+}
+
+
+a.navegable {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: wheat;
+    text-transform: uppercase;
+    
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 25px;
+}
+
+nav a:hover{
+    color:white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    text-align: right;
+    height: 25px;
+}
+
+#texto_footer{
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+*.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.iniciales {
+    list-style: none;
+    width: 900px;
+}
+
+li.iniciales a {
+    text-decoration: none;
+    color: #FFCC8C;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 600%;
+}
+
+li.iniciales a:hover{
+    color: brown;
+}
+
+.texto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: #FFCC8C;
+}
+
+#sobre_mi {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#experiencia {
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  
+  
+  table {
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 50px;
+    text-align: center;
+    
+  }
+
+
+  
+  .tit {
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 0%;
+  }
+  
+  .progreso {
+    width: 80px;
+    vertical-align: middle;
+  }
+  
+
+  ul{
+    padding-right: 100px;
+    margin-top: 0%;
+  }
+
+  li{
+    width: 250px;
+    list-style: none;
+  }
+
+  th {
+    margin-top: 0%;
+    vertical-align: top;
+  }
+
+  form{
+    color: #FFCC8C;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
